@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900842295726",
+    "project_id": "beeorder-d71b0",
+    "storage_bucket": "beeorder-d71b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900842295726:android:f42f37486004b6a299383f",
+        "android_client_info": {
+          "package_name": "com.example.order_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900842295726-fmjqinlk3epa6bbksvarchauhr96vpo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjK4tqSie4CB9fPC-0D1FJkn-jWZ0bYR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900842295726-fmjqinlk3epa6bbksvarchauhr96vpo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

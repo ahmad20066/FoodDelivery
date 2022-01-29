@@ -1,0 +1,4 @@
+#Tue Jan 25 17:02:34 EET 2022
+base.0=D\:\\Order_app\\order_app\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

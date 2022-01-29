@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">900842295726-fmjqinlk3epa6bbksvarchauhr96vpo0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">900842295726</string>
+    <string name="google_api_key" translatable="false">AIzaSyAjK4tqSie4CB9fPC-0D1FJkn-jWZ0bYR8</string>
+    <string name="google_app_id" translatable="false">1:900842295726:android:f42f37486004b6a299383f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAjK4tqSie4CB9fPC-0D1FJkn-jWZ0bYR8</string>
+    <string name="google_storage_bucket" translatable="false">beeorder-d71b0.appspot.com</string>
+    <string name="project_id" translatable="false">beeorder-d71b0</string>
+</resources>

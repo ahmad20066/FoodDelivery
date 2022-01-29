@@ -1,0 +1,23 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+UserModel _$UserModelFromJson(Map<String, dynamic> json) => UserModel(
+      userId: json['userId'] as String,
+      username: json['username'] as String,
+      email: json['email'] as String,
+      location: json['location'] as String?,
+      adresses: (json['adresses'] as List<dynamic>?)
+          ?.map((e) => Address.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      number: BigInt.parse(json['number'] as String),
+    );
+
+Map<String, dynamic> _$UserModelToJson(UserModel instance) => <String, dynamic>{
+      'userId': instance.userId,
+      'username': instance.username,
+      'email': instance.email,
+      'location': instance.location,
+      'adresses': instance.adresses,
+      'number': instance.number.toString(),
+    };

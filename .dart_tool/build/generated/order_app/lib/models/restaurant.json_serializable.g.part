@@ -1,0 +1,32 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Restaurant _$RestaurantFromJson(Map<String, dynamic> json) => Restaurant(
+      id: json['id'] as String,
+      name: json['name'] as String,
+      image: json['image'],
+      logo: json['logo'],
+      deliveryFee: json['deliveryFee'] as int,
+      meals: (json['meals'] as List<dynamic>)
+          .map((e) => Meal.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      url: json['url'] as String?,
+      logoUrl: json['logoUrl'] as String?,
+      isOnline: json['isOnline'] as bool?,
+      location: json['location'] as String,
+    );
+
+Map<String, dynamic> _$RestaurantToJson(Restaurant instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'name': instance.name,
+      'image': instance.image,
+      'logo': instance.logo,
+      'deliveryFee': instance.deliveryFee,
+      'meals': instance.meals,
+      'url': instance.url,
+      'logoUrl': instance.logoUrl,
+      'location': instance.location,
+      'isOnline': instance.isOnline,
+    };
